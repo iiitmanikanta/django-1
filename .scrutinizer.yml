@@ -2,7 +2,7 @@ tools:
     pylint:
         python_version: 2
     external_code_coverage:
-        timeout: 2
+        timeout: 70
         runs: 1 
 checks:
     python:
