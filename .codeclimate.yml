@@ -1,0 +1,19 @@
+ratings:
+   paths:
+   - "**.py"
+engines:
+  pep8:
+    enabled: true
+  radon: 
+    enabled: true
+  csslint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - python
+  fixme:
+    enabled: true
+  radon:
+    enabled: true
